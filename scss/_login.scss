@@ -1,0 +1,55 @@
+.mt-96{
+    margin-top: 6rem;
+}
+
+.mb-106{
+    margin-bottom: 6.625rem;
+}
+
+
+.mb-36{
+    margin-bottom: 2.25rem;
+}
+
+.mb-28{
+    margin-bottom: 1.75rem;
+}
+
+.mb-20{
+    margin-bottom: 1.25rem;
+}
+
+
+.mb-12{
+    margin-bottom: 0.75rem;
+}
+
+@media(min-width: 768px) {
+    .mb-md-82{
+        margin-bottom: 5.125rem;
+    }
+}
+
+.forgetPassword{
+    transition: all 0.3s;
+}
+
+
+.registerBtn{
+    color: #916000;
+}
+
+.loginBtn{
+    color: #fff;
+}
+
+.registerBtn:hover{
+    background-color: #916000;
+    color: #fff;
+}
+
+
+.loginBtn:hover{
+    background-color: #5b3e04;
+    color: #fff;
+}

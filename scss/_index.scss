@@ -1,0 +1,219 @@
+.font-Cormorant-Garamond{
+    font-family:"Cormorant Garamond";
+}
+
+.font-Noto-Serif{
+    font-family: "Noto Serif TC";
+}
+
+
+.text-align-center{
+    text-align: center;
+}
+
+
+
+@media(max-width: 768px){
+    .ml-md-4{
+        margin-left: 20px;
+    }
+
+    .mb-md-2{
+        margin-bottom: 8px;
+    }
+
+}
+
+.ml-4{
+    margin-left: 24px;
+}
+
+.ml-8{
+    margin-left: 36px;
+}
+
+
+.mt-40{
+    margin-top: 2.5rem;
+}
+
+.mb-30{
+    margin-bottom: 1.25rem;
+}
+
+.mb-112{
+    margin-bottom: 7rem;
+}
+
+.py-12{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+@media(max-width:576px) {
+    
+    
+    .py-sm-9{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .fs-sm-2{
+        font-size: 32px;
+    }
+
+    .fs-sm-5{
+        font-size: 20px;
+    }
+
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner .container{
+    color: $light;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+
+.bg{
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-banner{
+    background-image:url(../img/bcg/chanel_bcg_4.jpg);
+}
+
+
+.fz-1{
+    font-size: 40px;
+}
+
+.fz-2{
+    font-size: 36px;
+}
+
+.fz-3{
+    font-size: 30px;
+}
+
+.fz-4{
+    font-size: 24px;
+}
+
+.fz-5{
+    font-size: 20px;
+}
+
+.letter-spacing-6{
+    letter-spacing: 0.6px;
+}
+
+
+.letter-spacing-7{
+    letter-spacing: 0.7px;
+}
+
+.letter-spacing-20{
+    letter-spacing: 2px;
+}
+
+.letter-spacing-22{
+    letter-spacing: 2.25px;
+}
+
+
+.btn-rounded{
+    border-radius: 30px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+
+.productList{
+    background-color:#FAE5D3;
+}
+
+.card-body{
+    text-align:start;
+}
+
+.productList .card{
+    background-color: #FAE5D3;
+}
+
+.card-link{
+    color: #AC8A46;
+}
+
+.card-link:hover{
+    color: #8f5a2c;
+}
+
+.card-text-small{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.fw-medium{
+    font-weight: 500;
+}
+
+.subscribe{
+    height: 600px;
+    background-image: url(../img/subscribe.jpg);
+}
+
+.subscribe input[type=email]{
+    width: 220px;
+}
+
+.subscribe input{
+    height: 60px;
+    outline: 0px;
+}
+
+.white{
+    color: #fff;   
+}
+
+.lightGray{
+    color: #8D8D8D;
+}
+
+.border-brown{
+    border: 2px solid #916000;  
+}
+
+.bg-brown{
+    background-color: #916000;
+}
+
+
+
+
+footer{
+    background: #916000;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+.copyright{
+    font-size: 14px;
+    font-weight: 500;
+}
+

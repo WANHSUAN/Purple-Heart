@@ -1,0 +1,74 @@
+.w-120{
+    width: 120%;
+}
+
+
+.p-10{
+    padding: 0.625em;
+}
+
+.mt-20{
+    margin-top: 0.875em;
+}
+
+.mt-98{
+    margin-top: 5.75rem;
+}
+
+.mb-40{
+    margin-bottom: 2.5rem;
+}
+
+.p-14{
+    padding: 0.875rem;
+}
+
+.fs-s{
+    font-size: 1.25rem;
+}
+
+.secondNav a{
+    transition: all 0.3s;
+}
+
+.secondNav a:hover{
+    color: rgb(184, 180, 180);
+}
+
+@media(min-width: 768px) {
+    .mt-md-80{
+        margin-top: 5rem;
+    }
+
+    .mt-md-20{
+        margin-top: 1.25rem;
+    }
+
+    .mb-md-60{
+        margin-bottom: 3.75rem;
+    }
+
+    .mb-md-58{
+        margin-bottom: 3.625rem;
+    }
+}
+
+.brown{
+    color: #916000;
+}
+
+.lightBrown{
+    color: #AC8A46;
+}
+
+.chanceBtn:hover{
+    background-color: #684603;
+}
+
+.w-110{
+    width: 110%;
+}
+
+.w-80{
+    width: 80%;
+}
