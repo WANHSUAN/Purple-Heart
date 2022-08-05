@@ -19,7 +19,7 @@
 </head>
 <body>
     <!--導覽列-->
-    <nav class="navbar navbar-expand-lg navbar-light font-Cormorant-Garamond sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light font-Cormorant-Garamond">
         <div class="container-fluid mx-4">
             <h1 class="ml-md-4">
                 <a class="navbar-brand ms-5" href="index.html">
@@ -31,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown border-bottom border-secondary border-1">
+                    <li class="nav-item dropdown border-bottom border-1 border-secondary">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-search"></i>
                             <span class="">Search</span>
@@ -43,19 +43,19 @@
                             </form>
                         </ul>
                     </li>
-                    <li class="nav-item border-bottom border-secondary border-1">
+                    <li class="nav-item border-bottom border-1 border-secondary">
                         <a class="nav-link" aria-current="page" href="member.html">
                             <i class="fas fa-user"></i>
                             <span class="">Mypage</span>
                         </a>
                     </li>
-                    <li class="nav-item border-bottom border-secondary border-1">
+                    <li class="nav-item border-bottom border-1 border-secondary">
                         <a class="nav-link" href="#">
                             <i class="fas fa-heart"></i>
                             <span class="">Wishlist</span>
                         </a>
                     </li>
-                    <li class="nav-item border-bottom  border-secondary border-1">
+                    <li class="nav-item border-bottom border-1 border-secondary">
                         <a class="nav-link" href="#">
                             <i class="fas fa-shopping-cart"></i>
                             <span class="">Cart</span>
@@ -68,33 +68,33 @@
 
     <!--導覽列-2-->
 
-    <div class="secondNav bg-brown d-md-block d-none font-Cormorant-Garamond">
+    <div class="secondNav d-none bg-brown d-md-block font-Cormorant-Garamond">
         <ul class="container d-flex mb-0 fs-s">
             <li>
-                <a href="shop_chanel.html" class="p-14 d-block ps-0 white">CHANEL</a>
+                <a href="shop_chanel.html" class="d-block p-14 ps-0 white">CHANEL</a>
             </li>
             <li>
-                <a href="shop_dior.html" class="p-14 d-block ps-0 white">DIOR</a>
+                <a href="shop_dior.html" class="d-block p-14 ps-0 white">DIOR</a>
             </li>
             <li>
-                <a href="shop_jo_malone.html" class="p-14 d-block ps-0 white">JO MALONE</a>
+                <a href="shop_jo_malone.html" class="d-block p-14 ps-0 white">JO MALONE</a>
             </li>
             <li>
-                <a href="shop_ysl.html" class="p-14 d-block ps-0 white">YSL</a>
+                <a href="shop_ysl.html" class="d-block p-14 ps-0 white">YSL</a>
             </li>
         </ul>
     </div><!--bg-brown-->
 
     <!--member 區塊-->
     <div class="container">
-        <div class="row font-Noto-Serif mt-96 mb-40 mt-md-40 mt-lg-80 mb-lg-60">
+        <div class="row mt-96 mt-md-40 mt-lg-80 mb-40 mb-lg-60 font-Noto-Serif">
             <div class="col-lg-2">
-                <h2 class="d-none d-lg-block mb-28 fs-s gray-848484 lh-base">
+                <h2 class="d-none d-lg-block mb-28 lh-base fs-s gray-848484">
                     會員中心
                 </h2>
-                <ul class="d-flex justify-content-between d-lg-block mb-40 mb-lg-0 p-0">
+                <ul class="justify-content-between d-flex d-lg-block mb-40 mb-lg-0 p-0">
                     <li class="mb-lg-4">
-                        <a href="#" class="gray-848484 border-bottom-brown">
+                        <a href="#" class="border-bottom-brown gray-848484">
                             會員資料修改
                         </a>
                     </li>
@@ -215,7 +215,7 @@
                                     <input type="address" id="address" name="address" placeholder="請輸入地址" class="form-control">
                                 </div><!--col-->
                             </div><!--row-->
-                            <a href="#" role="button" class="col-6 btn mb-5 bg-brown">
+                            <a href="#" role="button" class="btn col-6 mb-5 bg-brown">
                                 確定修改
                             </a>
                         </div><!--col-9-->
@@ -246,7 +246,7 @@
                         </label>
                         <div class="col-9 col-lg-6">
                             <input type="password" id="password" name="password" class="form-control mb-3">
-                            <a href="#" role="button" class="col-6 btn bg-brown">
+                            <a href="#" role="button" class="btn col-6 bg-brown">
                                 變更密碼
                             </a>
                         </div><!--col-9-->
@@ -254,10 +254,10 @@
                 </form>
             </div><!--col-lg-7-->
             <div class="col-lg-3 order-2 order-lg-3">
-                <h3 class="mb-25 fs-xs gray-848484 lh-22">
+                <h3 class="mb-25 lh-22 fs-xs gray-848484">
                     <i class="fas fa-user me-2 fs-s black"></i>
                     會員編碼
-                    <span class="ms-6 font-Cormorant-Garamond lh-base lightGray">
+                    <span class="ms-6 lh-base font-Cormorant-Garamond lightGray">
                         T00020080615
                     </span>
                 </h3>
@@ -296,8 +296,8 @@
     <!--footer-->
 
     <footer class="py-4">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="footer-info d-flex align-items-center">
+        <div class="container justify-content-between align-items-center d-flex">
+            <div class="footer-info align-items-center d-flex">
                 <a href="index.html">
                     <img src="img/logo/footer_logo.png" style="width: 180px; height: 50px;" alt="logo-footer">
                 </a>
@@ -305,7 +305,7 @@
                     © 2021. All Rights Reserved.
                 </p>
             </div><!--footer-info-->
-            <ul class="footer-nav d-md-flex d-none mt-3 font-Cormorant-Garamond ">
+            <ul class="footer-nav mt-3 d-md-flex d-none font-Cormorant-Garamond">
                 <li class="ml-8">
                     <a href="#" class="text-white">
                         <i class="fab fa-facebook"></i>
